@@ -3,4 +3,4 @@
 
 [EN](./LICENSE.txt)
 
-[CN(Simplified)](./LICENSE_zh-CN.txt)
+[简中](./LICENSE_zh-CN.txt)
