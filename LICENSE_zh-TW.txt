@@ -1,4 +1,4 @@
-File to Download 公共資源許可證 (F2DLPRL或F2DLPR許可證)
+File to Download 公共資源許可證 (F2DLPRL 或 F2DLPR 許可證)
 
 本許可適用於原始程式碼、分發物、文字作品及其他形式作品原件。
 
