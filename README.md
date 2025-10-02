@@ -2,8 +2,8 @@
 
 [EN](LICENSE)
 
-[简中](LICENSE_zh-CN)
+[简中](LICENSE_zh-Hans)
 
-[正中](LICENSE_zh-TW)
+[正中](LICENSE_zh-Hant)
 
 [文中](LICENSE_zh-LT)
