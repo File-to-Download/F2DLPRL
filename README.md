@@ -1,9 +1,10 @@
-# File to Download Public Resources License (F2DLPRL or F2DLPR License)
+# [File to Download](https://license.fileto.download/)
 
-[EN](LICENSE)
+## Public Resources License (F2DLPRL or F2DLPR License)
 
-[简中](LICENSE_zh-Hans)
+<br/>
 
-[正中](LICENSE_zh-Hant)
+**F2DLPRL** 是由 [_白彩恋_](https://shiror.ren/) 创建的许可证
 
-[文中](LICENSE_zh-LT)
+主要应用于 [_回忆溢出工作组_](https://oom-wg.dev/) 相关项目与
+[_Latest File_](https://latestfile.zip/) 相关项目等内容
