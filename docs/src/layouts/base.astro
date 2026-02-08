@@ -6,7 +6,15 @@ const {title, description} = Astro.props
 
 <html style="text-autospace:normal;text-spacing-trim:trim-start;font-feature-settings:'palt'">
 	<head>
-		<SEO {title} charset='utf-8' {description} canonical={new URL(Astro.url.pathname, Astro.site)} />
+		<SEO
+			{title}
+			charset='utf-8'
+			{description}
+			canonical={new URL(Astro.url.pathname, Astro.site)}
+			extend={{
+				meta: [{name: 'baidu-site-verification', content: 'codeva-4gxRRq58e2'}]
+			}}
+		/>
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 		<meta name='viewport' content='width=device-width' />
 		<meta name='generator' content={Astro.generator} />
