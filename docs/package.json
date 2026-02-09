@@ -1,7 +1,10 @@
 {
-	"name": "docs",
+	"name": "f2dl-docs",
+	"private": true,
+	"description": "F2DLPRL",
+	"license": "F2DLPRL",
+	"author": "ShIroRRen",
 	"type": "module",
-	"version": "0.0.1",
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build && copyfiles -f \"../LICENSE*.txt\" dist/",
