@@ -1,8 +1,8 @@
 {
 	"name": "f2dl-docs",
 	"private": true,
-	"description": "F2DLPRL",
-	"license": "F2DLPRL",
+	"description": "File to Downloader License",
+	"license": "File-to-Downloader",
 	"author": "ShIroRRen",
 	"type": "module",
 	"scripts": {
@@ -14,14 +14,14 @@
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "^3.7.3",
-		"astro": "^6.4.4",
+		"astro": "^6.4.6",
 		"astro-seo": "^1.1.0",
 		"water.css": "^2.1.1"
 	},
 	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^6.0.2",
 		"copyfiles": "^2.4.1",
-		"prettier": "^3.8.3",
+		"prettier": "^3.8.4",
 		"prettier-plugin-astro": "^0.14.1"
 	}
 }
