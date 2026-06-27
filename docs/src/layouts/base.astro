@@ -21,7 +21,7 @@ const { title, description } = Astro.props
 		<meta name='generator' content={Astro.generator} />
 	</head>
 	<body>
-		<nav style='margin-bottom: 40px;'>
+		<nav style='margin-bottom: 40px;' data-nosnippet>
 			<a href='/'>🏠</a> | <a href='/LICENSE'>EN</a> | <a href='/LICENSE_zh-Hant'>正中</a> | <a href='/LICENSE_zh-Hans'
 				>简中</a
 			>
@@ -29,7 +29,7 @@ const { title, description } = Astro.props
 		<main>
 			<slot />
 		</main>
-		<footer style='margin-top: 50px; opacity: 0.6; font-size: 0.9em;'>
+		<footer style='margin-top: 50px; opacity: 0.6; font-size: 0.9em;' data-nosnippet>
 			<p>
 				&copy; 2016-{new Date().getFullYear()}{' '}
 				<a href='https://shiror.ren/' target='_blank'>白彩恋</a>，版权所有，保留一切权利。
