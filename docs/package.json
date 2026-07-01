@@ -14,14 +14,14 @@
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "^3.7.3",
-		"astro": "^7.0.3",
+		"astro": "^7.0.4",
 		"astro-seo": "^1.1.0",
 		"water.css": "^2.1.1"
 	},
 	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^6.0.2",
 		"copyfiles": "^2.4.1",
-		"prettier": "^3.8.5",
+		"prettier": "^3.9.4",
 		"prettier-plugin-astro": "^0.14.1"
 	}
 }
