@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap'
 
 export default defineConfig({
 	site: 'https://license.fileto.download',
+	build: { assets: '_f2dl' },
 	integrations: [
 		sitemap({
 			lastmod: new Date(),
