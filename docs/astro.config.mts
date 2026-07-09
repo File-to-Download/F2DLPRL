@@ -1,3 +1,4 @@
+import robots from 'astro-robots'
 import { defineConfig } from 'astro/config'
 
 import sitemap from '@astrojs/sitemap'
@@ -9,6 +10,10 @@ export default defineConfig({
 		sitemap({
 			lastmod: new Date(),
 			priority: 1
+		}),
+		robots({
+			policy: [{ userAgent: '*', allow: '/' }],
+			host: 'license.fileto.download'
 		})
 	],
 	vite: { server: { fs: { allow: ['..'] } } }
