@@ -9,7 +9,8 @@
 		"dev": "astro dev",
 		"build": "astro build && copyfiles -f \"../LICENSE*.txt\" dist/",
 		"preview": "astro preview",
-		"astro": "astro",
+		"prepare": "astro sync",
+		"typecheck": "astro check",
 		"format": "prettier --write ."
 	},
 	"dependencies": {

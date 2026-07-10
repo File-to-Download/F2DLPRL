@@ -6,34 +6,30 @@ const { title, description } = Astro.props
 
 <html
 	style="text-autospace:normal;text-spacing-trim:trim-start;font-feature-settings:'palt';font-variant-ligatures:common-ligatures;font-optical-sizing:auto;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;hyphens:auto">
-	<head>
-		<SEO
-			{title}
-			charset='utf-8'
-			{description}
-			canonical={new URL(Astro.url.pathname, Astro.site)}
-			extend={{
-				meta: [{ name: 'baidu-site-verification', content: 'codeva-4gxRRq58e2' }]
-			}}
-		/>
-		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-		<meta name='viewport' content='width=device-width' />
-		<meta name='generator' content={Astro.generator} />
-	</head>
-	<body>
-		<nav style='margin-bottom: 40px;' data-nosnippet>
-			<a href='/'>🏠</a> | <a href='/LICENSE'>EN</a> | <a href='/LICENSE_zh-Hant'>正中</a> | <a href='/LICENSE_zh-Hans'
-				>简中</a
-			>
-		</nav>
-		<main>
-			<slot />
-		</main>
-		<footer style='margin-top: 50px; opacity: 0.6; font-size: 0.9em;' data-nosnippet>
-			<p>
-				&copy; 2016-{new Date().getFullYear()}{' '}
-				<a href='https://shiror.ren/' target='_blank'>白彩恋</a>，版权所有，保留一切权利。
-			</p>
-		</footer>
-	</body>
+	<meta charset='UTF-8' />
+	<meta name='viewport' content='width=device-width' />
+	<SEO
+		{title}
+		{description}
+		canonical={new URL(Astro.url.pathname, Astro.site)}
+		extend={{
+			meta: [{ name: 'baidu-site-verification', content: 'codeva-4gxRRq58e2' }]
+		}}
+	/>
+	<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+
+	<nav style='margin-bottom: 40px;' data-nosnippet>
+		<a href='/'>🏠</a> | <a href='/LICENSE'>EN</a> | <a href='/LICENSE_zh-Hant'>正中</a> | <a href='/LICENSE_zh-Hans'
+			>简中</a
+		>
+	</nav>
+	<main>
+		<slot />
+	</main>
+	<footer style='margin-top: 50px; opacity: 0.6; font-size: 0.9em;' data-nosnippet>
+		<p>
+			&copy; 2016-{new Date().getFullYear()}{' '}
+			<a href='https://shiror.ren/' target='_blank'>白彩恋</a>，版权所有，保留一切权利。
+		</p>
+	</footer>
 </html>
