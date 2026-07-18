@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://license.fileto.download/sitemap-index.xml
+Host: license.fileto.download
