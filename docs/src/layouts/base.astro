@@ -1,10 +1,11 @@
 ---
 import { SEO } from 'astro-seo'
 import 'water.css/out/water.css'
-const { title, description } = Astro.props
+const { lang, title, description } = Astro.props
 ---
 
 <html
+	{lang}
 	style="text-autospace:normal;text-spacing-trim:trim-start;font-feature-settings:'palt';font-variant-ligatures:common-ligatures;font-optical-sizing:auto;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;hyphens:auto">
 	<meta charset='UTF-8' />
 	<meta name='viewport' content='width=device-width' />
